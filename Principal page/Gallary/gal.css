@@ -1,0 +1,38 @@
+.container22{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 400px;
+    min-width: 400px;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.square{
+    padding: 3px;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(192, 69, 69);
+    /* animation: animation 2s reverse  */
+    transition: 2s;
+    transition-timing-function:ease-in-out ;
+}
+.square:hover{
+    background-color: rgb(255, 15, 63);
+    height: 400px;
+    width: 400px;
+    cursor: pointer;
+    
+}
+
+
+

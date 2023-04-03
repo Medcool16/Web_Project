@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulaire </title>
+
+    <link rel="stylesheet" href="Form.css">
+
+</head>
+
+
+<body>
+    
+    <h1 id="H1" style="visibility: visible;"> Demande d'Inscription <br></h1>
+    
+    <form name="formulaire" id="FORM" method="post">
+        
+        <fieldset>
+            <legend> Vos Informations </legend>
+            <table>
+                 <tr>
+                    <td><label for="N"> Nom : </label></td>
+                    <td><input type="text" id="N" name="N1" placeholder="Entrez Votre Nom"></td>
+                 </tr>
+                 <tr>
+                    <td><label for="P">Prenom : </label></td>
+                    <td><input type="text" id="P" name="P1" placeholder="Entrez Votre Prenom"></td>
+                 </tr>
+                 <tr>
+                    <td><label for="D"> Date de Naissance : </label></td>
+                    <td><input type="date" id="D" name="D1" ></td>
+                 </tr>
+                 <tr>
+                    <td> <br> Homme  <input  type="radio"  name="radiobutton"  value="myValue1" id="H">  </td> 
+                    <td> <br> Femme <input type="radio"  name="radiobutton"  value="myValue2" id="F">  </td> 
+                 </tr>
+                 <tr>
+                    <td> <br><label for="FL"> Filière : </label></td>
+                    <td> <br><select id="FL"  name="FL1">
+                            <option value=""></option>
+                            <option value="GI"> GI </option>
+                            <option value="ER"> ER </option>
+                            <option value="TM"> TM </option>
+                            <option value="GODT"> GODT </option>
+                            <option value="GE"> GE </option>
+                            <option value="IDSD"> IDSD </option>
+                         </select>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td><label for="E"> E-mail : </label></td>
+                    <td><input type="email" id="E" name="E1" placeholder="Entrez Votre E-mail"></td>
+                 </tr>
+                 <!-- <tr>
+                    <td><label for="MP"> Mot de Passe : </label></td>
+                    <td><input type="password" id="MP" name="MP1" placeholder="mot de passe de gmail"></td>
+                 </tr> 
+                 <tr>
+                    <td><label for="MP'"> Confirmer le mot de passe : </label></td>
+                    <td><input type="password" id="MP'" name="MP2" placeholder="confirmer"></td>
+                 </tr>-->
+                 <tr>
+                    <td><label for="PH"> Ajouter Votre Photo : </label></td>
+                    <td><input type="file" id="PH" name="PH1" ></td>
+                 </tr>
+                 <tr>
+                    <td><label for="Ms"> Message : </label></td>
+                    <td><textarea  id="Ms" cols="30" rows="5" name="Ms1"></textarea></td>
+                 </tr>
+                 <tr>
+                     
+                    <td> <br><label for="VR"> Vérification des informations : </label></td>
+                    <td> <br><input type="checkbox" id="VR"  name="VR1"> </td>
+                 </tr>
+                 <tr>
+                    <td> <input type="reset" id="EF" name="EF1" value="Effacer la saisie"></td>
+                    <!-- <td> <button id="AF" name="AF1" onclick="afficher()"> Afficher les informations avant d'envoyer  </button></td> -->
+                 </tr>
+                 <tr>
+                  <td colspan="2"><br></td>
+                 </tr>
+                 <tr>
+                    <td colspan="2" style="padding-left: 30px;"> <input type="submit" id="EN" name="EN1" value="Envoyer" disabled="disabled" onclick="sendData()"></td>
+                 </tr>
+                 <tr>
+                  <td colspan="2"><br></td>
+                 </tr>
+
+            </table>
+        </fieldset>
+        
+      </form>
+
+</body>
+
+
+
+    <script src="Form.js">
+
+    </script>
+
+</html>

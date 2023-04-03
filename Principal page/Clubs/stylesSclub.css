@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Second section */
+.second-section{
+    background-image: url(images/bg2.jpg);
+    background-size:cover ;
+    min-height: 100vh;
+}
+
+.container2{
+    margin: 5px 70px;
+    position: relative;
+}
+
+.imgHolder{
+    display: flexbox;
+    text-align: center;
+    height: max-content;
+    padding-top: 40px;
+}
+
+.imgHolder img{
+    width: 280px;
+    border:2px solid rgba(255, 255, 255, 0.144) ;
+    height: 280px;
+    padding: 1px;
+    margin: 13px 30px;
+    cursor: pointer;
+    animation: animation 2s infinite;
+}
+/* .imgHolder img:hover{
+    /* background-color:rgba(255, 255, 255, 0.096) ;} */
+
+
+
+@keyframes animation {
+    25%{
+        background-color: coral;
+    }
+    75%{
+        background-color: rgb(139, 255, 230);
+    }
+    100%{
+        background-color: darkorange;
+    }
+}
+
+.row1, .row2, .row3, .row4, div{
+    display: inline-block;
+}
+
+
+.floating-div {
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    height: 540px;
+    background-color: #f1f1f1e8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    top: 38px;
+    left : 355px;
+  }
+  
+   /* remove floating div */
+  .rmbtn{
+    position: absolute;
+    padding: 10px 15px;
+    border: 0;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    right: 15px;
+    cursor: pointer;
+  }
+
+   /* Sign in utton */
+    
+
+
