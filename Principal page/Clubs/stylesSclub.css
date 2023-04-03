@@ -66,23 +66,40 @@
     display: inline-block;
 }
 
-
+    /* floating div */
 .floating-div {
     position: absolute;
+    cursor: auto;
     z-index: 1;
     width: 500px;
     height: 540px;
     background-color: #f1f1f1e8;
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 60px 10px 10px 10px;
     box-sizing: border-box;
     top: 38px;
     left : 355px;
   }
+
+    /* heading */
+.flo-div-heading{
+    font-size: 45px;
+    background-color: black;
+    color: white;
+}
+
+.flo-div-paragraph{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgb(128, 103, 103);
+    color: black;
+    font-size: 20px;
+}
   
    /* remove floating div */
-  .rmbtn{
+.rmbtn{
     position: absolute;
+    top: 10px;
     padding: 10px 15px;
     border: 0;
     background-color: black;
@@ -94,7 +111,20 @@
     cursor: pointer;
   }
 
-   /* Sign in utton */
+.Inscrir{
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(86, 86, 144);
+    color: white;
+}
+
+   
     
 
 
