@@ -23,25 +23,42 @@
     width: 280px;
     border:2px solid rgba(255, 255, 255, 0.144) ;
     height: 280px;
-    padding: 1px;
+    padding: 3px;
     margin: 13px 30px;
     cursor: pointer;
     animation: animation 2s infinite;
 }
-/* .imgHolder img:hover{
-    /* background-color:rgba(255, 255, 255, 0.096) ;} */
-
-
 
 @keyframes animation {
-    25%{
-        background-color: coral;
+    0%{
+        border-radius: 2px;
     }
-    75%{
-        background-color: rgb(139, 255, 230);
+    10%{
+        background-color:rgb(160, 255, 160) ;
+        transition: 1s;
+        border-radius: 6px;
+    }
+    20%{
+        background-color: rgb(196, 255, 196);
+        transition: 1s;
+        border-radius: 12px;
+    }
+    40%{
+        background-color: rgb(220, 255, 219);
+        transition: 1s;
+        border-radius: 18px;
+    }
+    60%{
+        background-color: rgb(240, 254, 255);
+        transition: 1s;
+    }
+    80%{
+        background-color: rgb(194, 245, 255);
+        transition: 1s;
     }
     100%{
-        background-color: darkorange;
+        background-color: rgb(167, 231, 254);
+        transition: 1s;
     }
 }
 
