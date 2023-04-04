@@ -5,15 +5,14 @@ bloc.addEventListener('click',(EVENT)=>{
 
     // get the clicked image element
     const clickedImage = EVENT.target;
-
     if (clickedImage.tagName == "IMG"){          //tester que l'element cliquer est une image 
     
     // create a new div element
     const floatingDiv = document.createElement('div');
     floatingDiv.classList.add('floating-div');
-    floatingDiv.setAttribute('id','test')
+    floatingDiv.setAttribute('id','test');
     // append the floating div to the image container
-    clickedImage.parentNode.parentNode.append(floatingDiv);
+    
 
 
     //Add content to floatingDiv 
@@ -124,11 +123,12 @@ bloc.addEventListener('click',(EVENT)=>{
             break;
       }
 
+
     // the remove button
     const btn = document.createElement('button');
     btn.textContent = 'X';
     btn.setAttribute('class','rmbtn');
-    floatingDiv.appendChild(btn);
+    floatingDiv.append(btn);
 
     btn.onclick = ()=>{
         floatingDiv.remove();
@@ -141,9 +141,21 @@ bloc.addEventListener('click',(EVENT)=>{
       sign.setAttribute('href','Formulaire/Form.html')
       floatingDiv.append(sign);
 
+      let Iframe = document.createElement('iframe');
+              Iframe.setAttribute('src','Clubs/description group/gr.html');
+              floatingDiv.append(Iframe);
+
+           Iframe.style.cssText = `
+           width:650Px;
+           height:350px;
+           border : none;
+           `   
     
+      clickedImage.parentNode.appendChild(floatingDiv);
 }
   });
+
+
   
   
   

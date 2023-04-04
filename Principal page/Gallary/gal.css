@@ -1,3 +1,6 @@
+.Gallary{
+    display: none;
+}
 .container22{
     display: block;
     justify-content: center;
@@ -7,7 +10,8 @@
     min-width: 400px;
     background-color: #333;
     overflow: hidden;
-    
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .square{
@@ -22,16 +26,15 @@
     width: 100px;
     margin: 10px;
     background-color: rgb(192, 69, 69);
-    /* animation: animation 2s reverse  */
-    transition: 2s;
+    animation: animation reverse  ;
+    transition: 1s;
     transition-timing-function:ease-in-out ;
 }
 .square:hover{
     background-color: rgb(255, 15, 63);
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 600px;
     cursor: pointer;
-    
 }
 
 
