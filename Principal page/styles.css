@@ -63,7 +63,8 @@
 
 @keyframes but {
     0%{
-        transform: rotateY(180deg);
+        /* transform: rotateY(180deg); */
+        transform: rotateZ(180deg);
     }
 }
 /* --------------------------------------- */

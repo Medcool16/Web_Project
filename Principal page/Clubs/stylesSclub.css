@@ -5,7 +5,6 @@
     background-image: url(images/bg2.jpg);
     background-size:cover ;
     min-height: 100vh;
-    display: none;
 }
 
 .container2{
@@ -90,15 +89,17 @@
     background-color: black;
     color: white;
 }
-    /* paragraphe */
-.flo-div-paragraph{
+
+ /* description club iframe */
+ .iframe-club-desc{
+    width:650Px;
+    height:380px;
+    border : none;
     margin-top: 20px;
-    padding: 5px;
-    background-color: rgb(128, 103, 103);
-    color: black;
-    font-size: 20px;
+    padding-top: 0px;
 }
-  
+
+
    /* remove floating div */
 .rmbtn{
     position: absolute;
@@ -117,7 +118,7 @@
   /* sign in clib */
 .Inscrir{
     position: relative;
-    top: 410px;
+    bottom: -15px;
     font-size: 20px;
     padding: 5px 10px;
     cursor: pointer;
@@ -128,6 +129,7 @@
     color: white;
     width: 150px;
     font-weight: 400;
+    
 }
 
 .Inscrir:hover{
@@ -136,6 +138,10 @@
     transition: 0.5s;
 }
 
+
+
+
+  
    
     
 
