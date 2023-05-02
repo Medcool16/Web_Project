@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="container">
+        <div class="holder">
+            <div class="head">Registration</div>
+            <div id="log" class="log">
+                <div class="detail1">
+                    <fieldset class="fi">
+                        <legend><h1 class="title">Log in</h1></legend>
+                        <form class="logfield">
+                                <label>Username</label>
+                                <input type="text">
+                                <label>Password</label>
+                                <input type="password">
+                                <span><a href="#">Forget password?</a></span><br>
+                                <button class="Signbtn">Log in</button>
+                        </form>
+                    </fieldset>
+                    <button id="btnLog">I don't have account</button>
+                </div>
+                <div class="addedContent1"></div>
+            </div>
+
+
+
+            <div id="sign" class="sign">
+                <div class="detail2">
+                    <fieldset>
+                        <legend><h1 class="title">Sign in</h1></legend>
+                    <form action="">
+                        <label>First-name  </label>
+                        <input type="text" placeholder="First name">
+                        <label>Last-name </label>
+                        <input type="text" placeholder="Last name">
+                        <label style="margin: 10px 35px 10px -20px">&nbsp;Gender</label>
+
+                        <label class="rad">Male </label>
+                        <input type="radio" value="Male" name="rb">
+                        <label class="rad">Female </label>
+                        <input type="radio" value="Male" name="rb">
+                            <br>
+                        <label class="sector">Sector</label>
+                        <select>
+                            <option>GI</option>
+                            <option>ER</option>
+                            <option>TM</option>
+                            <option>GE</option>
+                            <option>IDSD</option>
+                            <option>GODT</option>
+                        </select><br>
+
+
+                        <label >Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="email" placeholder="example@gmail.com" required id="mail">
+                        <label >Password&nbsp;&nbsp;</label>
+                        <input type="password">
+
+                        <button class="Signbtn">Register</button>
+                        
+                    </form>
+                </fieldset>
+                    <button id="btnSign">Already have account</button>
+                </div>
+                <div class="addedContent2"></div>
+            </div>
+        </div>
+    </div>
+    <script src="scripte.js"></script>
+</body>
+</html>

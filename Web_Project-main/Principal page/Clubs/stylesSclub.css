@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Second section */
+.second-section{
+    background-image: linear-gradient(rgba(0, 8, 51, 0.815),rgba(110, 35, 92, 0.342)),url(images/bg.jpg);
+    background-size:cover ;
+    min-height: 100vh;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.card {
+    margin: 10px;
+    position: relative;
+}
+
+.desc{
+    position: absolute;
+    background-color: rgba(230, 140, 140, 0.904);
+    padding: 0px;
+    border-radius: 0px 0px 5px 5px;
+    bottom: 25px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+    margin: 0px 18px;
+}
+.desc h2{
+    margin-top: -15px;
+    color: white;
+    text-align: center;
+
+}
+.desc p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.desc a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 1px 10px;
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+
+.desc a:enabled{
+    visibility: hidden;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .desc{
+    padding: 35px;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.card img{
+    height: 280px;
+    width: 280px;
+    margin: 18px;
+}
+
+.cardholder{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 165px;
+    
+}
