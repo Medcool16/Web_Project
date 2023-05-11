@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="reser.css">
+</head>
+<body>
+    <div class="container">
+        <fieldset>
+            <legend>BasketBall</legend>
+            <form action="reserB.php" method="get">
+                <label>Full Name</label>
+                <input type="text" name="flname"><br><br>
+    
+                <label>CIN </label>
+                <input type="text" name="cin"><br><br>
+    
+                <label>Date </label>
+                <input type="date" name="date"><br><br>
+    
+                <label>Time </label>
+                <input type="time" name="time"><br><br>
+    
+                <label>Sector</label>
+                <select name="fili">
+                    <option></option>
+                    <option>GI</option>
+                    <option>ER</option>
+                    <option>TM</option>
+                    <option>GE</option>
+                    <option>IDSD</option>
+                    <option>GODT</option>
+                </select><br><br>
+    
+    
+                <input type="submit" value="Reserve">
+                
+            </form>
+        </fieldset>
+        
+    </div>
+</body>
+</html>

@@ -12,6 +12,14 @@
        die("connexion fieled");
      }
 
+        /* create BD */
+      //$conn->query("create database web_project");
+
+        /* create TABLE */
+
+      //$conn->query("create table login (name varchar(20), gender varchar(10), filiere varchar(5), email varchar(40), password varchar(10), Club varchar(20))");
+
+
      // use BD
      $sql="use web_project";
      $conn->query($sql);
